@@ -1,10 +1,8 @@
 
 
-header p{
+h1{
     font-family:fantasy; 
-    font-size: 40px;
-
-    
+    font-size: 50px;   
 }
 header a{
     text-decoration: none;
@@ -12,10 +10,6 @@ header a{
     font-family: fantasy;
     text-align: top;
     
-}
-
-body{
-    background-color: #FFF500;
 }
 
 
@@ -31,7 +25,8 @@ nav{
     
 }
 a:hover{
-    color: grey;
+    color: rgb(255, 230, 0);
+    display: inline-block;
 }
 
 header{
