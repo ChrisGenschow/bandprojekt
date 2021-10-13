@@ -1,0 +1,46 @@
+
+
+header p{
+    font-family:fantasy; 
+    font-size: 40px;
+
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+    text-align: top;
+    
+}
+
+body{
+    background-color: #FFF500;
+}
+
+
+
+nav{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 2em;
+    padding: 1em;
+    
+}
+a:hover{
+    color: grey;
+}
+
+header{
+    background-color: #4E9D51;
+    /* padding-left: 4em;
+    padding-right: 5em; */
+
+}
+
+    
+
+
