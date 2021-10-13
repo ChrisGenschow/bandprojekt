@@ -11,16 +11,17 @@
 .header-nav-text{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 2fr;
+
 
 
 }
-h1{
-    align-items: center;
+header{
+    max-width: 100%;
 }
 
 nav{
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 3;
     display: flex;
     gap: 2em;
@@ -28,4 +29,6 @@ nav{
     font-size: 20px;
 
 }
+
+
 
