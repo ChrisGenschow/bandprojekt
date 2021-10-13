@@ -6,3 +6,9 @@
     color: yellow;
     text-align: center;
 }
+.pepe-about-image {
+    max-width: 100%;
+}
+.about-content {
+    background-image: url(backgroundimages/Elephantbg.jpg);
+}
