@@ -7,3 +7,25 @@
     max-width: 100%;
     width: 100%;
 }
+
+.header-nav-text{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+
+
+}
+h1{
+    align-items: center;
+}
+
+nav{
+    grid-row: 2;
+    grid-column: 3;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    font-size: 20px;
+
+}
+
