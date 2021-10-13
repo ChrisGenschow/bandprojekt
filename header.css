@@ -1,0 +1,9 @@
+.header-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-pictures__picture {
+    max-width: 100%;
+    width: 100%;
+}
