@@ -9,7 +9,12 @@
 .pepe-about-image {
     max-width: 100%;
     border-radius: 55%;
-    border: 4px solid yellow;
+    border: 4px solid rgb(245, 83, 8);
+}
+.other-about-image {
+    max-width: 100%;
+    border-radius: 55%;
+    border: 4px solid rgb(245, 83, 8);
 }
 .about-content {
     background-image: url(backgroundimages/Elephantbg.jpg);
@@ -20,12 +25,22 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 2fr;
     grid-template-rows: 1fr 3fr 1fr;
+    gap: 20px;
 }
 .pepe-info {
     background-color: white;
     border-radius: 20%;
-    border: 4px solid yellow;
+    border: 4px solid rgb(255, 51, 0);
     padding: 1em;
+    color: black;
+}
+.other-info {
+    padding: 1em;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgba(245, 188, 66, 0.7);
+    border: 4px solid tomato;
+    border-radius: 30%;
 }
 .pepekalleh1 {
     grid-column: 1;
@@ -35,7 +50,25 @@
     padding: 1em;
     grid-column: 1;
     grid-row: 2;
-    background-color: rgba(66, 245, 156, 0.7);
+    background-color: rgba(245, 188, 66, 0.7);
     border: 4px solid tomato;
-    border-radius: 20%;
+    border-radius: 30%;
 }
+.other-pepe-info {
+    background-color: white;
+    border-radius: 20%;
+    border: 4px solid rgb(255, 51, 0);
+    padding: 1em;
+    color: black;
+}
+
+@media screen and (min-width: 200px) {
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 8fr 8fr;
+        background-size: cover;
+    }
+    
+}
+    
