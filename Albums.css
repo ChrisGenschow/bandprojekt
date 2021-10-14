@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.wrapper *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.album-covers{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.wrapper{
+  width: 100%;
+  background: rgb(180,58,137);
+background: linear-gradient(90deg, rgba(180,58,137,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel .card{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+
+}
+
+
+.owl-dot.active,
+.owl-dot:hover{
+  background: green!important;
+}
+
+.caption-title {
+    color: black;
+    font-size: 0.2em;
+    line-height: 100%;
+    padding: 1em;
+}
+
+.wrapper img {
+    display: block;
+    width: 100%;
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 750px) {
+    .owl-dots{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+    .owl-dot{
+        height: 15px;
+        width: 45px;
+        margin: 0 5px;
+        outline: none;
+        border-radius: 14px;
+        border: 2px solid black!important;
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+
+    }
+    
+
+}

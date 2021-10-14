@@ -1,0 +1,44 @@
+
+
+h1{
+    font-family:fantasy; 
+    font-size: 50px;   
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+    text-align: top;
+    
+}
+
+
+
+nav{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 2em;
+    padding: 1em;
+    
+}
+a:hover{
+    color: rgb(255, 230, 0);
+    
+}
+
+header{
+    background-color: #4E9D51;
+    /* padding-left: 4em;
+    padding-right: 5em; */
+
+}
+body{
+    background-color: #4E9D51;
+}
+
+    
+
+
